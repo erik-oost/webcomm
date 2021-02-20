@@ -1,0 +1,151 @@
+/* GENERAL STYLE */
+body {
+	background-color: darkred;
+	font-family: Helvetica, Arial, sans-serif;
+	color: white;
+	text-align: left;
+}
+p {
+	text-align: left;
+	color: gold;
+}
+h1 {
+	text-align: center;
+	color: white;
+	margin-top: 0.1em;
+	margin-bottom: 0.1em;
+	font-size: 5vw;
+}
+h2 {
+	text-align: center;
+	color: forestgreen;
+	text-shadow: 2px 2px 5px black; /* Source: https://www.w3schools.com/cssref/css3_pr_text-shadow.asp */
+	margin-top: 0.2em;
+	margin-bottom: 0.2em;
+	font-size: 3vw;
+}
+h3 {
+	text-align: center;
+	color: gold;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	font-size: 2.5vw;
+}
+h4 {
+	color: forestgreen;
+	text-shadow: 1px 1px 3px black; /* Source: https://www.w3schools.com/cssref/css3_pr_text-shadow.asp */
+	font-size: 2.5vw;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+/* TEXT STYLE */
+.serif {
+	font-family: Perpetua, Times, serif;
+}
+.center {
+	text-align: center;
+}
+/* IMAGE STYLE */
+/* Source: https://www.w3schools.com/howto/howto_css_image_center.asp */
+.homeimg {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 1em;
+	max-width: 100%;
+}
+/* End Source*/
+
+/* BOX */
+.greenbox {
+	border: 1px solid forestgreen;
+}
+.boxtext {
+	margin-left: 0.5em;
+}
+/* NAVIGATION BAR */
+/* Source: https://csswizardry.com/2011/01/create-a-centred-horizontal-navigation/ */
+.nav{
+	border: 1px solid white;
+	border-width: 5px 0;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+.nav li{
+	display: inline;
+	text-decoration: none;  
+}
+.nav a{
+	display: inline-block;
+ 	padding: 7px;
+	text-decoration: none;
+	color: gold;
+}
+/* End Source */
+
+/* Source: https://www.w3schools.com/css/css_navbar_horizontal.asp */
+li a:hover {
+	background-color: crimson;
+	color: white;
+}
+/* End Source */
+
+/* MENU TABLE */
+/* Source: https://www.w3schools.com/html/html_tables.asp */
+th, td {
+	padding: 15px;
+}
+#menu {
+	border: 1px solid forestgreen;
+	border-collapse: collapse;
+	color: gold;
+	width: 100%;
+}
+#menu th {
+	background-color: forestgreen;
+	color: lightgreen;
+}
+#menu tr:nth-child(even) {
+	background-color: darkred;
+}
+#menu tr:nth-child(odd) {
+	background-color: crimson;
+}
+.mleft {
+	text-align: left;
+}
+.mcenter {
+	text-align: center;
+}
+/* End Source */
+
+/* MAP STYLE */
+.map {
+	float: left;
+	margin-right: 0.75em;
+}	
+.maptext {
+	line-height: 2.0;
+}
+
+/* PIZZA LINKS */
+/* Source: https://www.w3schools.com/html/html_links.asp */
+.pizzalink {
+	margin-bottom: 10px;
+	line-height: 2.0;
+}
+.pizzalink a:link, .pizzalink a:visited {
+	color: white;
+	text-decoration: none;
+	background-color: navy;
+	padding: 10px 10px;
+}
+.pizzalink a:hover, .pizzalink a:active {
+	color: white;
+	text-decoration: none;
+	background-color: crimson;
+	padding: 10px 10px;
+}
+/* End Source */
